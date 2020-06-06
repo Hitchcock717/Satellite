@@ -15,9 +15,7 @@
 ## 致谢
 Satellite 的界面完全依赖于D2Admin框架。D2Admin使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，从而省去了许多从零起步的时间。另外界面组件遵循了许多ElementUI的设计风格，很好地融合了D2Admin框架。
 在使用本平台前或打算二次开发，推荐先阅读[D2Admin官方文档](https://d2.pub/zh/)和[Element桌面端组件库](https://element.eleme.cn/#/zh-CN)，将会节省您的时间。
-``` html
 <a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/d2-admin@2x.png" width="200"></a>
-```
 
 ## 预览
 Satellite 暂未提供服务器部署的访问地址，或将选择在后续的版本中提供链接。如需快速了解本平台，请点击下方GIF图片：
@@ -45,11 +43,13 @@ Satellite 要求首次登录用户需完善个人信息，填写入口可在**�
 
 ## 爬虫 / Spider
 Satellite 内嵌了小型检索平台，平台数据来自文献平台爬虫。需说明的是：平台内定制的爬虫引擎，目前只作为演示使用，爬取规模与速度尚不能满足实际项目需要。
+
 | 数据来源 | 地址 | 爬虫名称 |
 | --- | --- | --- |
 | 知网 | [知网空间](http://search.cnki.com.cn/Search/Result?searchType=MultiyTermsSearch&Content=%E6%B0%A8%E5%9F%BA%E9%85%B8&Order=1) | CNKIspider |
 | 维普 | [维普中文期刊](http://qikan.cqvip.com/Qikan/Search/Index?from=Qikan_Search_Index) | CQVIPspider |
 | 万方 | [万方智搜](http://www.wanfangdata.com.cn/index.html) | WFspider |
+
 若存在大规模地爬取任务，平台内的爬虫引擎可另外使用[阿布云](https://www.abuyun.com/)提供的付费IP隧道，一键启动爬取。(Satellite 不作任何付费平台推介，如有付费需要，请务必自行考虑后选择。）
 
 ## 检索平台 / Retrieve
