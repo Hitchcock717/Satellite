@@ -12,13 +12,15 @@
 
 [Satellite](https://github.com/Hitchcock717/Satellite) 是一个简易型的**科研雷达**平台，该平台致力于模拟检索、分析并推荐精细化领域下的中文论文数据。前端框架基于[D2Admin](https://github.com/d2-projects/d2-admin)集成方案，后端采用[Django](https://github.com/django/django)框架，搭载[Elasticsearch](https://github.com/elastic/elasticsearch)开源搜索引擎，通过实时爬取诸如[知网](http://search.cnki.com.cn/Search/Result?searchType=MultiyTermsSearch&Content=%E6%B0%A8%E5%9F%BA%E9%85%B8&Order=1)等文献数据平台，完成平台功能展示。
 
-## 致谢
+## 致谢 / Thanks
 Satellite 的界面完全依赖于D2Admin框架。D2Admin使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，从而省去了许多从零起步的时间。另外界面组件遵循了许多ElementUI的设计风格，很好地融合了D2Admin框架。
 在使用本平台前或打算二次开发，推荐先阅读[D2Admin官方文档](https://d2.pub/zh/)和[Element桌面端组件库](https://element.eleme.cn/#/zh-CN)，将会节省您的时间。
+
 <a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/d2-admin@2x.png" width="200"></a>
 
-## 预览
-Satellite 暂未提供服务器部署的访问地址，或将选择在后续的版本中提供链接。如需快速了解本平台，请点击下方GIF图片：
+## 预览 / Preview
+Satellite 暂未提供服务器部署的访问地址，或将选择在后续的版本中提供链接。如需快速了解本平台，请查阅下方GIF图片：
+
 ![Satellite演示](https://github.com/Hitchcock717/Satellite/blob/master/docs/introduction.gif)
 
 ## 模块
@@ -50,7 +52,7 @@ Satellite 内嵌了小型检索平台，平台数据来自文献平台爬虫。�
 | 维普 | [维普中文期刊](http://qikan.cqvip.com/Qikan/Search/Index?from=Qikan_Search_Index) | CQVIPspider |
 | 万方 | [万方智搜](http://www.wanfangdata.com.cn/index.html) | WFspider |
 
-若存在大规模地爬取任务，平台内的爬虫引擎可另外使用[阿布云](https://www.abuyun.com/)提供的付费IP隧道，一键启动爬取。(Satellite 不作任何付费平台推介，如有付费需要，请务必自行考虑后选择。）
+若存在大规模地爬取任务，平台内的爬虫引擎可另外使用[阿布云](https://www.abuyun.com/)提供的付费IP隧道，一键启动爬取。(Satellite 不作任何付费平台推介，如有付费需要，请务必自行考虑。）
 
 ## 检索平台 / Retrieve
 Satellite 检索平台按检索方式分为：
