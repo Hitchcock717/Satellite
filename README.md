@@ -24,8 +24,7 @@ Satellite 暂未提供服务器部署的访问地址，或将选择在后续的�
 ![Satellite演示](https://github.com/Hitchcock717/Satellite/blob/master/docs/introduction.gif)
 
 # 流程 / Flow
-
-
+![Satellite 流程示意图](https://github.com/Hitchcock717/Satellite/blob/master/docs/flow.png)
 
 ## 模块 / Module
 Satellite 按功能属性主要分为：
@@ -220,6 +219,9 @@ Satellite 通常基于文献元数据、用户收藏记录和用户个人信息�
 平台推荐方法目前略显粗糙，后续将致力于打磨更精准、精细的推荐方法以飨用户。
 
 
+## 写在最后 / Final
+Satellite 1.0版本历时一个半月断断续续独立开发而成，总会有许多细节不甚完善或功能不甚全面或bug出现的情况，相信经过逐步改进后能够实现真正的”快速检索“ + ”全面分析“ + “好文推荐”。若出现以上所提到的不足之处，望多提宝贵意见和issue。
+祝好，各位。
 
 
 
