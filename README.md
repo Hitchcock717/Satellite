@@ -218,8 +218,9 @@ Satellite 学术文献分析平台提供了五种分析方法：
 | --- | --- |
 | 数据来源 | String(子库名称) |
 
-以上基础图分析，主要依赖于[v-charts](https://v-charts.js.org/#/)插件包。v-charts是基于 Vue2.0 和 echarts 封装的 v-charts 图表组件，解决了使用 echarts 生成图表时，经常需要做繁琐的数据类型转化、修改复杂的配置项这一痛点。
-关系图分析，主要依赖于[vis-network](https://github.com/visjs/vis-network)插件包。效果图样例如下：
+- 以上基础图分析，主要依赖于[v-charts](https://v-charts.js.org/#/)插件包。v-charts是基于 Vue2.0 和 echarts 封装的 v-charts 图表组件，解决了使用 echarts 生成图表时，经常需要做繁琐的数据类型转化、修改复杂的配置项这一痛点。
+- 以上关系图分析，主要依赖于[vis-network](https://github.com/visjs/vis-network)插件包。效果图样例如下：
+
 ![合作关系图](https://github.com/visjs/vis-network/blob/master/common-docs-files/img/network.png)
 
 
