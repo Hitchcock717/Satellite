@@ -79,9 +79,15 @@ Satellite 检索平台按检索结果又分为：
 
 相比简单搜索，子库搜索增加了以下限制条件：
 
-| 搜索类型 | 论文信息1 | 搜索关系 | 
-| --- | --- | --- |
-| Field | Text1 | 并含/或含/不含 |
+| 搜索字段 | 格式 |
+| --- | --- |
+| 搜索类型 | Field |
+| 论文信息1 | Text1 |
+| 搜索关系 | 并含/或含/不含 |
+| 论文信息2 | Text2 |
+| 启用正则 | 是/否 |
+| 相邻表达式关系 | 无/并且/或者/不含 |
+| 日期 | Date |
 
 其中，搜索类型Field包括以下字段：
 - 标题
@@ -221,10 +227,44 @@ Satellite 学术文献分析平台提供了五种分析方法：
 Satellite 通常基于文献元数据、用户收藏记录和用户个人信息综合考虑进行推荐，平台内以**每日推荐**的形式随机向用户展示5篇论文，平台外以**发送邮件**的形式定时向用户传输含推荐论文信息的附件。
 平台推荐方法目前略显粗糙，后续将致力于打磨更精准、精细的推荐方法以飨用户。
 
+## 版本号 / Version
+- Scrapy1.7.4 or just Request
+- Elasticsearch 7.6.1 & Kibana 7.6.1
+- Django 3.0.4
+- D2_admin(Vue) 1.8
+- ...
+
+## 快速查阅 / Reference
+* About frontend
+- 暂时使用vue框架下的中后台管理系统d2_admin_smart_kit，后续根据需求更换
+- 框架说明来自[d2_admin](https://d2.pub/zh/doc/d2-admin/component/container.html#%E6%A8%A1%E5%BC%8F-card)
+- 页面组件来自[element-ui](https://element.eleme.cn/#/zh-CN/component/menu)
+- icon来自[fontawesome](https://fontawesome.com)
+- ...
+
+* About backend
+- Django教程来自[刘江的博客](https://www.liujiangblog.com/course/django/2)
+- Django DRF框架来自[django-restful-framework](https://q1mi.github.io/Django-REST-framework-documentation/tutorial/2-requests-and-responses_zh)
+- ...
+
+* About Vue & Django
+- [掘金文章](https://juejin.im/post/5e36d5dc51882520ea398f21)
+- [知乎文章](https://zhuanlan.zhihu.com/p/54776124)
+- ...
+
+* About Scrapy & Django
+- [Scrapy官方文档](https://scrapy-chs.readthedocs.io/zh_CN/0.24/topics/djangoitem.html)
+- [Theodo Blog](https://blog.theodo.com/2019/01/data-scraping-scrapy-django-integration/)
+- ...
+
+* About Elasticsearch & Django
+- [CSDN Blog](https://blog.csdn.net/weixin_42149982/article/details/82390900)
+- [简书](https://www.jianshu.com/p/46eb88a4e489)
+- ...
 
 ## 写在最后 / Final
-Satellite 1.0版本历时一个半月断断续续独立开发而成，总会有许多细节不甚完善或功能不甚全面或bug出现的情况，相信经过逐步改进后能够实现真正的”快速检索“ + ”全面分析“ + “好文推荐”。若出现以上所提到的不足之处，望多提宝贵意见和issue。
-祝好，各位。
+- Satellite 1.0版本历时一个半月断断续续独立开发而成，总会有许多细节不甚完善或功能不甚全面或bug出现的情况，相信经过逐步改进后能够实现真正的”快速检索“ + ”全面分析“ + “好文推荐”。若出现以上所提到的不足之处，望多提宝贵意见和issue。
+- 祝好，各位。
 
 
 
