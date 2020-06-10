@@ -23,7 +23,11 @@ Satellite 暂未提供服务器部署的访问地址，或将选择在后续的�
 
 ![Satellite演示](https://github.com/Hitchcock717/Satellite/blob/master/docs/introduction.gif)
 
-# 流程 / Flow
+## 演示 / Demonstration
+视频演示地址：
+[Youtube Satellite Scholar Research Platform](https://youtu.be/2PzagmhpOYg)
+
+## 流程 / Flow
 ![Satellite 流程示意图](https://github.com/Hitchcock717/Satellite/blob/master/docs/flow.png)
 
 ## 模块 / Module
