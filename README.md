@@ -20,7 +20,6 @@ Satellite 的界面完全依赖于D2Admin框架。D2Admin使用最新的前端�
 
 ## 预览 / Preview
 Satellite 暂未提供服务器部署的访问地址，或将选择在后续的版本中提供链接。如需快速了解本平台，请查阅下方GIF图片：
-
 ![Satellite演示](https://github.com/Hitchcock717/Satellite/blob/master/docs/introduction.gif)
 
 ## 演示 / Demonstration
