@@ -13,7 +13,10 @@
 [Satellite](https://github.com/Hitchcock717/Satellite) 是一个简易型的**科研雷达**平台，该平台致力于模拟检索、分析并推荐精细化领域下的中文论文数据。前端框架基于[D2Admin](https://github.com/d2-projects/d2-admin)集成方案，后端采用[Django](https://github.com/django/django)框架，搭载[Elasticsearch](https://github.com/elastic/elasticsearch)开源搜索引擎，通过实时爬取诸如[知网](http://search.cnki.com.cn/Search/Result?searchType=MultiyTermsSearch&Content=%E6%B0%A8%E5%9F%BA%E9%85%B8&Order=1)等文献数据平台，完成平台功能展示。
 
 ## 项目归属 / Owner
-Satellite属于北京大学软件与微电子学院-计算机辅助翻译方向的工程实践评定成果，开发者为Hitchcock。
+Satellite 属于北京大学软件与微电子学院-计算机辅助翻译方向的工程实践评定成果，开发者为Hitchcock。
+
+## 相关论文 / Paper
+Satellite 的开发思路脱胎于由[WI-IAT2020](http://wi2020.vcrab.com.au/)收录的文章 - Detecting Research Fronts and Potentially Valuable Papers Using Paper Metadata
 
 ## 致谢 / Thanks
 Satellite 的界面完全依赖于D2Admin框架。D2Admin使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，从而省去了许多从零起步的时间。另外界面组件遵循了许多ElementUI的设计风格，很好地融合了D2Admin框架。
